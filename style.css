@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("pexels-nadin-sh-18101999.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h3 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 600;
+    color: darkblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkblue;
+    font-weight: 600;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: red;
+}
+
+.content {
+    height: 100vh;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main-content h1 {
+    font-size: 42px;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-content button {
+    border: none;
+    outline: none;
+    font-size: 28px;
+    padding: 12px 28px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: red;
+    color: black;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.main-content button:hover {
+    color: red;
+    background: black;
+}
+
